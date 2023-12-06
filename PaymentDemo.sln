@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B74A4F7E-01C0-4370-9178-BFBD378E0EB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "src\Infrastructure\Infrastructure.csproj", "{27214797-E59D-4F4E-8BC5-2FDAB788D268}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0FD8AE58-D95D-4908-9198-09492204998B}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27214797-E59D-4F4E-8BC5-2FDAB788D268}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27214797-E59D-4F4E-8BC5-2FDAB788D268}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27214797-E59D-4F4E-8BC5-2FDAB788D268}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27214797-E59D-4F4E-8BC5-2FDAB788D268}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{27214797-E59D-4F4E-8BC5-2FDAB788D268} = {B74A4F7E-01C0-4370-9178-BFBD378E0EB1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84A38482-8232-4AFD-9480-8D2A7FD503AA}
+	EndGlobalSection
+EndGlobal
