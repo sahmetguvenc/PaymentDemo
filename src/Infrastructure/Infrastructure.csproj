@@ -1,6 +1,19 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<RootNamespace>PaymentDemo.Infrastructure</RootNamespace>
 		<AssemblyName>PaymentDemo.Infrastructure</AssemblyName>
 	</PropertyGroup>
+	<ItemGroup>
+	  <PackageReference Include="EFCoreSecondLevelCacheInterceptor" Version="4.0.0" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.14" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="7.0.14" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="7.0.14" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.14">
+	    <PrivateAssets>all</PrivateAssets>
+	    <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+	  </PackageReference>
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\Application\Application.csproj" />
+	</ItemGroup>
 </Project>

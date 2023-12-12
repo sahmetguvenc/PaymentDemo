@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<RootNamespace>PaymentDemo.Application</RootNamespace>
+		<AssemblyName>PaymentDemo.Application</AssemblyName>
+	</PropertyGroup>
+	<ItemGroup>
+	  <PackageReference Include="AutoMapper" Version="12.0.1" />
+	  <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+	  <PackageReference Include="FluentValidation" Version="11.8.1" />
+	  <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.8.1" />
+	  <PackageReference Include="MediatR" Version="12.2.0" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.14" />
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\Domain\Domain.csproj" />
+	</ItemGroup>
+</Project>
